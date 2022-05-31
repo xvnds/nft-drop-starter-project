@@ -475,6 +475,7 @@ async function awaitTransactionSignatureConfirmation(
           const signatureStatuses = await connection.getSignatureStatuses([
             txid,
           ]);
+          console.log({ signatureStatuses })
           status = signatureStatuses && signatureStatuses.value[0];
           if (!done) {
             if (!status) {

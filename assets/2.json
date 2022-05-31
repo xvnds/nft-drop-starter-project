@@ -1,0 +1,19 @@
+{
+  "name": "CLICHE",
+  "symbol": "MILLI",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "5gFspZuSbAv9b9TCUkkR5jAUjyw6rFyf6Ec4RvKB8573",
+        "share": 100
+      }
+    ]
+  }
+}
